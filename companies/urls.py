@@ -3,7 +3,7 @@ from companies.views import companies
 
 urlpatterns = [
      # get all companies
-    path('companies/', companies.company_list, name='company_list'),
+    path('', companies.company_list, name='company_list'),
 
     # Companies CRUD urls
     path('company/<int:id>/', companies.get_company, name='get_company'),

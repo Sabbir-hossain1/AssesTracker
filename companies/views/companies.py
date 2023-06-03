@@ -6,8 +6,7 @@ def company_list(request):
     """
     View function that retrieves all the companies from the database
     and renders them in the 'company_list.html' template.
-    """
-
+    """ 
     companies = Company.objects.all()
     return render(request, 'templates', {'companies': companies})
 
