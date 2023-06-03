@@ -42,7 +42,10 @@ INSTALLED_APPS = [
     'companies',
     
     # install employee app
-    'employee'
+    'employee',
+
+    # install assets app
+    'assets',
 ]
 
 MIDDLEWARE = [
